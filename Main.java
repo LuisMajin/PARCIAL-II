@@ -4,15 +4,15 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Crear el primer planeta
+
         Planeta planeta1 = crearPlaneta(sc, 1);
         Logic logic1 = new Logic(planeta1);
 
-        // Crear el segundo planeta
+
         Planeta planeta2 = crearPlaneta(sc, 2);
         Logic logic2 = new Logic(planeta2);
 
-        // Imprimir atributos de ambos planetas
+
         System.out.println("\nAtributos del planeta 1:");
         logic1.imprimirAtributos();
         
@@ -22,7 +22,7 @@ public class Main {
         sc.close();
     }
 
-    // Método para crear un planeta a partir de la entrada del usuario
+
     private static Planeta crearPlaneta(Scanner sc, int numero) {
         System.out.println("Digite el nombre del planeta " + numero + ":");
         String nombre = sc.nextLine();
