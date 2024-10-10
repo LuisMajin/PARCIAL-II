@@ -18,7 +18,6 @@ public class Planeta {
         this.esObservable = esObservable;
     }
 
-    // Getters
     public String getNombre() {
         return nombre;
     }
