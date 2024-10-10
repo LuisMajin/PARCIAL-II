@@ -44,7 +44,7 @@ public class Main {
 
         System.out.println("Es " + nombre + " observable? (true/false):");
         boolean esObservable = sc.nextBoolean();
-        sc.nextLine(); // Consumir el salto de línea
+        sc.nextLine();
 
         return new Planeta(nombre, cantidadSatélites, masa, volumen, diámetro, distanciaAlSol, esObservable);
     }
